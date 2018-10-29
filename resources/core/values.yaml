@@ -10,13 +10,6 @@ minio:
   service:
     type: NodePort
 
-
-
-
-
-
-
-
 azure-broker:
   enabled: false
 

@@ -24,5 +24,3 @@ service:
 tests:
   image:
     pullPolicy: IfNotPresent
-
-
