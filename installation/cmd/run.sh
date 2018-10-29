@@ -11,6 +11,7 @@ if [ `uname -s` = "Darwin" ]; then
     VM_DRIVER="hyperkit"
 fi
 
+
 POSITIONAL=()
 while [[ $# -gt 0 ]]
 do
