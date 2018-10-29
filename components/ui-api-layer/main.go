@@ -47,6 +47,8 @@ func main() {
 	parseFlags(cfg)
 	parseFlags(cfg)
 	parseFlags(cfg)
+	parseFlags(cfg)
+	parseFlags(cfg)
 
 	k8sConfig, err := newRestClientConfig(cfg.KubeconfigPath)
 	exitOnError(err, "Error while initializing REST client config")
