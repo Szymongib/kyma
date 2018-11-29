@@ -36,6 +36,7 @@ func parseArgs() *options {
 	connectorServiceHost := flag.String("connectorServiceHost", "cert-service.wormhole.cluster.kyma.cx", "Host at which this service is accessible.")
 
 	flag.Parse()
+	flag.Parse()
 
 	return &options{
 		appName:                *appName,
