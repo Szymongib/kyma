@@ -43,6 +43,7 @@ func main() {
 	log.SetFormatter(formatter)
 
 	log.Info("Starting metadata.")
+	log.Info("Starting metadata.")
 
 	options := parseArgs()
 	log.Infof("Options: %s", options)
