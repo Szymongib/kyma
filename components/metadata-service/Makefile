@@ -13,7 +13,6 @@ build-image:
 .PHONY: push-image
 push-image:
 	docker tag $(APP_NAME) $(IMG):$(TAG)
-	docker push $(IMG):$(TAG)
 
 .PHONY: ci-pr
 ci-pr: build build-image push-image
