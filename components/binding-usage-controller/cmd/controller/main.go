@@ -36,6 +36,8 @@ type Config struct {
 	AppliedSBUConfigMapNamespace string `envconfig:"default=kyma-system"`
 }
 
+
+
 func main() {
 	var cfg Config
 	err := envconfig.InitWithPrefix(&cfg, "APP")
