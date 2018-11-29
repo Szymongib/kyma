@@ -38,6 +38,7 @@ func TestApiSpec(t *testing.T) {
 
 			rawApiSpec, err := ioutil.ReadAll(response.Body)
 			require.NoError(t, err)
+			require.NoError(t, err)
 
 			var apiSpec struct{}
 			err = yaml.Unmarshal(rawApiSpec, &apiSpec)

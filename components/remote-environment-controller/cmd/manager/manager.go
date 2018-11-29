@@ -40,6 +40,7 @@ func main() {
 	}
 
 	log.Printf("Registering Components:")
+	log.Printf("Registering Components:")
 
 	log.Printf("Setting up scheme.")
 	if err := api.AddToScheme(mgr.GetScheme()); err != nil {
