@@ -46,6 +46,7 @@ func TestConnector(t *testing.T) {
 
 		//then
 		require.NotEmpty(t, crtResponse.Crt)
+		require.NotEmpty(t, crtResponse.Crt)
 
 		// when
 		certificates := testkit.DecodeAndParseCert(t, crtResponse)
