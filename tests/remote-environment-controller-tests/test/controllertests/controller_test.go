@@ -32,6 +32,7 @@ func TestRemoteEnvironmentController(t *testing.T) {
 	})
 
 	testSuite.CleanUp()
+	testSuite.CleanUp()
 }
 
 func TestRemoteEnvironmentController_SkipProvisioning(t *testing.T) {
