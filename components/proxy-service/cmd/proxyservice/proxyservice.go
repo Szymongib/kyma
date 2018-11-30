@@ -28,6 +28,7 @@ func main() {
 	log.SetFormatter(formatter)
 
 	log.Info("Starting Proxy Service.")
+	log.Info("Starting Proxy Service.")
 
 	options := parseArgs()
 	log.Infof("Options: %s", options)

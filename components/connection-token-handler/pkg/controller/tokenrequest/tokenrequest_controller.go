@@ -65,6 +65,7 @@ type ReconcileTokenRequest struct {
 // and what is in the TokenRequest.Spec
 func (r *ReconcileTokenRequest) Reconcile(request reconcile.Request) (reconcile.Result, error) {
 	log.Printf("Processing TokenRequest %s", request.NamespacedName)
+	log.Printf("Processing TokenRequest %s", request.NamespacedName)
 
 	instance := &connectorservicev1alpha1.TokenRequest{}
 	err := r.Get(context.TODO(), request.NamespacedName, instance)
